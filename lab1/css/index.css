@@ -1,7 +1,11 @@
+body {
+    background: azure;
+}
+
 #user {
     position: relative;
     color: rgb(0, 151, 221);
-    left: 300px;
+    left: 400px;
 }
 
 a {
@@ -49,6 +53,16 @@ article {
     border-bottom: 2px solid #eaeaea;
 }
 
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    position: fixed;
+}
+
+li:hover {
+    list-style-type: disc;
+}
+
 .box {
     position: relative;
     max-width: 1000px;
@@ -59,8 +73,8 @@ article {
 
 .broadside {
     position: absolute;
-    top: 60px;
-    right: 200px;
+    top: 100px;
+    right: -100px;
 }
 
 .navigation {
