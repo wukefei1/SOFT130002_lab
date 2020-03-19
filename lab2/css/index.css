@@ -1,0 +1,92 @@
+body {
+    background: azure;
+}
+
+#user {
+    position: relative;
+    color: rgb(0, 151, 221);
+    left: 400px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    margin-right: 30px;
+    color: rgb(53, 53, 53);
+    font-size: inherit;
+}
+
+a.navigation,
+a.more,
+a.right {
+    color: rgb(0, 151, 221);
+}
+
+a:hover {
+    color: rgb(68, 0, 255);
+}
+
+a.navigation:hover,
+a.more:hover,
+a.right:hover {
+    color: rgb(190, 190, 190);
+}
+
+a.next {
+    border-right: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+
+header {
+    position: relative;
+    max-width: 1000px;
+    height: 100px;
+}
+
+article {
+    border-right: 2px solid #eaeaea;
+    border-left: 2px solid #eaeaea;
+    border-top: 2px solid #eaeaea;
+    border-bottom: 2px solid #eaeaea;
+}
+
+ul {
+    position: relative;
+    list-style-type: none;
+    font-size: 20px;
+    right: -60px;
+}
+
+li:hover {
+    list-style-type: disc;
+}
+
+.box {
+    position: relative;
+    max-width: 1000px;
+    height: fit-content;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+.broadside {
+    position: absolute;
+    top: 200px;
+    right: -100px;
+}
+
+.navigation {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    top: 0px;
+}
+
+.next {
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+}
