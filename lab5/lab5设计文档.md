@@ -74,6 +74,7 @@ function arrSameStr() {
 github截图：
 
 ![](images/github.png)
+链接：[https://github.com/wukefei1/SOFT130002_lab/blob/master/lab5/lab5设计文档.md](https://github.com/wukefei1/SOFT130002_lab/blob/master/lab5/lab5设计文档.md)
 
 网页效果截图：
 
