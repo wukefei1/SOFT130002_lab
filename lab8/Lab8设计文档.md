@@ -1,13 +1,15 @@
-# Lab7设计文档
+﻿# Lab8设计文档
 
-#### 遇到困难
+### 第一题
 
-在码Lab的过程中没有遇到什么技术上的问题，熟悉了createElement(), createTextNode()和appendChild()的用法就没有问题了。最后在向item(每个单独genre区块)中添加子元素中连续使用了4个appendChild()感觉有一些繁琐，考虑过写成append(1,2,...)的形式，但是查到可能有兼容性问题就没有这么写了。
+设置一个全局变量currentPage记录当前页码，把翻页的动画封装成一个函数function setPage(pageNumber)，传入的参数pageNumber为要到达的页码，翻页的时候取消当前页码按钮"on"类型，并更改currentPage的值。向前和向后翻页按钮的onclick事件都调用该函数。其中还需要一个布尔型变量让用户不能在播放动画期间翻页。
 
-#### 网页截图
+### 第二题
+设置一个是否需要自动翻页的布尔型变量（在图内时为false，否则为true），并设置一个计时器，每2秒判断一次是否需要翻页。
 
-鼠标未进入时：![](网页截图/mouseOut.png)
+### 第三题
+点击时调用setPage，并传入点击的数字来跳往该页。
 
-鼠标进入时：
-
-![](网页截图/mouseIn.png)
+### 第四题
+点击时将td的contentEditable属性设置为true（可以编辑），然后选中单元格内所有内容，再collapseToStart()一下即可。
+td失去焦点时将contentEditable属性重新设置为false。
